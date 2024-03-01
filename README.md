@@ -1,15 +1,44 @@
-# The Bacon Interview
+# libbacon
 
-Welcome to the interview! Please pick your preferred language from below, and follow the instructions to clone the repo.
+A library for all your bacon needs.
 
-## [Python](https://github.com/Juniper-Health/programming_interview/tree/python)
+## Usage
 
+```typescript
+// list actors that appeared with any other actor
+didBaconWorkWith("Miranda Cosgrove");
+// -> False
+didBaconWorkWith("Frankie Muniz");
+// -> True
+
+// calculates the input name's degrees of separation from Kevin Bacon
+baconNumber("Sigourney Weaver")
+// -> 2
+
+// lists all movies starring an actor and Kevin Bacon
+moviesStarringBaconAnd("Frankie Muniz")
+// -> ['My Dog Skip']
 ```
-git clone -b python https://github.com/Juniper-Health/programming_interview.git
+
+## Tests
+
+Libbacon uses [jest](https://www.npmjs.com/package/jest)
+```
+npm test
 ```
 
-## [Typescript](https://github.com/Juniper-Health/programming_interview/tree/typescript)
+## Dependencies
 
+This library supports all recent node versions  and dependencies can be installed with:
 ```
-git clone -b typescript https://github.com/Juniper-Health/programming_interview.git
+npm i
+```
+
+## The Database
+
+The database can be explored via sqlite:
+```
+sqlite3 database.db
+# to show the schema:
+> .schema
 ```

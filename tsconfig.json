@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "outDir": "./build",
+    "esModuleInterop": true,
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
