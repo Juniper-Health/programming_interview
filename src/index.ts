@@ -4,7 +4,7 @@ import { Queue } from 'queue-typescript'
 
 async function getDb () {
   return open({
-    filename: '/Users/cassandrawilliams-pauley/juniper/interview/to_send/database.db',
+    filename: 'database.db',
     driver: sqlite3.Database
   })
 }
