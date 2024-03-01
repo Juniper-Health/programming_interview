@@ -1,0 +1,25 @@
+{
+  "name": "libbacon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "/build"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "queue-typescript": "^1.0.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  }
+}
